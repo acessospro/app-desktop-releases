@@ -12,6 +12,10 @@ app.use(express.static('public', {
     }
 }));
 
+app.get('/health', (req, res) => {
+    res.status(200).send('OK');
+});
+
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
 });
