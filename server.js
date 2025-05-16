@@ -12,7 +12,7 @@ require('dotenv').config();
 // Configurações
 const app = express();
 const PORT = process.env.PORT || 3000;
-const VERSION = process.env.VERSION || '1.0.0';
+const VERSION = process.env.VERSION || '0.0.1';
 const RELEASE_DATE = process.env.RELEASE_DATE || '2025-04-28';
 const RELEASE_NOTES = process.env.RELEASE_NOTES || 'Lançamento inicial do Acessos Pro';
 const MAX_AGE = process.env.MAX_AGE || 86400; // 1 dia em segundos
